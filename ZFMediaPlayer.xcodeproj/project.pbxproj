@@ -13,6 +13,12 @@
 		6ADDC73229542CEB00F351C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDC73029542CEB00F351C5 /* Main.storyboard */; };
 		6ADDC73429542CEC00F351C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDC73329542CEC00F351C5 /* Assets.xcassets */; };
 		6ADDC73729542CEC00F351C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDC73529542CEC00F351C5 /* LaunchScreen.storyboard */; };
+		6ADDC73F295431BF00F351C5 /* LRCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC73E295431BF00F351C5 /* LRCItem.swift */; };
+		6ADDC7412954320D00F351C5 /* LRCEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC7402954320D00F351C5 /* LRCEngine.swift */; };
+		6ADDC74529546B7D00F351C5 /* ZFMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDC74429546B7D00F351C5 /* ZFMusicPlayer.swift */; };
+		6ADDD26029548FE100F351C5 /* MusicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDD25F29548FE100F351C5 /* MusicContentView.swift */; };
+		6ADDD2642955C9A000F351C5 /* Song in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDD2632955C9A000F351C5 /* Song */; };
+		6ADDD2662955C9C300F351C5 /* LRC in Resources */ = {isa = PBXBuildFile; fileRef = 6ADDD2652955C9C300F351C5 /* LRC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6ADDC73329542CEC00F351C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ADDC73629542CEC00F351C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADDC73829542CEC00F351C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADDC73E295431BF00F351C5 /* LRCItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRCItem.swift; sourceTree = "<group>"; };
+		6ADDC7402954320D00F351C5 /* LRCEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRCEngine.swift; sourceTree = "<group>"; };
+		6ADDC74429546B7D00F351C5 /* ZFMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFMusicPlayer.swift; sourceTree = "<group>"; };
+		6ADDD25F29548FE100F351C5 /* MusicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicContentView.swift; sourceTree = "<group>"; };
+		6ADDD2632955C9A000F351C5 /* Song */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Song; sourceTree = "<group>"; };
+		6ADDD2652955C9C300F351C5 /* LRC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LRC; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				6ADDC73329542CEC00F351C5 /* Assets.xcassets */,
 				6ADDC73529542CEC00F351C5 /* LaunchScreen.storyboard */,
 				6ADDC73829542CEC00F351C5 /* Info.plist */,
+				6ADDC73E295431BF00F351C5 /* LRCItem.swift */,
+				6ADDC7402954320D00F351C5 /* LRCEngine.swift */,
+				6ADDC74429546B7D00F351C5 /* ZFMusicPlayer.swift */,
+				6ADDD25F29548FE100F351C5 /* MusicContentView.swift */,
+				6ADDD2652955C9C300F351C5 /* LRC */,
+				6ADDD2632955C9A000F351C5 /* Song */,
 			);
 			path = ZFMediaPlayer;
 			sourceTree = "<group>";
@@ -125,8 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADDD2662955C9C300F351C5 /* LRC in Resources */,
 				6ADDC73729542CEC00F351C5 /* LaunchScreen.storyboard in Resources */,
 				6ADDC73429542CEC00F351C5 /* Assets.xcassets in Resources */,
+				6ADDD2642955C9A000F351C5 /* Song in Resources */,
 				6ADDC73229542CEB00F351C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADDC73F295431BF00F351C5 /* LRCItem.swift in Sources */,
+				6ADDC7412954320D00F351C5 /* LRCEngine.swift in Sources */,
 				6ADDC72F29542CEB00F351C5 /* ViewController.swift in Sources */,
 				6ADDC72B29542CEB00F351C5 /* AppDelegate.swift in Sources */,
+				6ADDC74529546B7D00F351C5 /* ZFMusicPlayer.swift in Sources */,
+				6ADDD26029548FE100F351C5 /* MusicContentView.swift in Sources */,
 				6ADDC72D29542CEB00F351C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
